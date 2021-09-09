@@ -10,10 +10,10 @@
 
         <div class="movie">
         @foreach($allMovies as $movie)
-            <h1>{{ $movie->title }}</h1><hr>
+            <h1>{{ $movie->title }}</h1>
             <div><b>Lingua:</b> {{ $movie->nationality }}</div>
             <div><b>Data di uscita:</b> {{ $movie->date }}</div>
-            <div><b>Feed:</b> {{ $movie->vote }}</div>
+            <div><b>Feed:</b> {{ $movie->vote }}</div><hr>
         @endforeach
         </div>
 
